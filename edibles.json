@@ -1,0 +1,520 @@
+{
+    "edibles": [
+        {
+            "name": "fruta fresca pequeña",
+            "type": 5,
+            "unit": "unidades",
+            "amount": 1
+        },
+        {
+            "name": "jugo fresco sin azúcar",
+            "type": 5,
+            "unit": "tazas",
+            "amount": 0.5
+        },
+        {
+            "name": "ciruelas pequeñas",
+            "type": 5,
+            "unit": "unidades",
+            "amount": 2
+        },
+        {
+            "name": "ciruelas mediana",
+            "type": 5,
+            "unit": "unidades",
+            "amount": 1
+        },
+        {
+            "name": "Jocotes verdes",
+            "type": 5,
+            "unit": "unidades",
+            "amount": 6
+        },
+        {
+            "name": "Jocotes maduros",
+            "type": 5,
+            "unit": "unidades",
+            "amount": 5
+        },
+        {
+            "name": "Mamones Chinos",
+            "type": 5,
+            "unit": "unidades",
+            "amount": 5
+        },
+        {
+            "name": "Bananos",
+            "type": 5,
+            "unit": "unidades",
+            "amount": 1
+        },
+        {
+            "name": "Fresas, melón, papaya, ensalada de fruta fresca",
+            "type": 5,
+            "unit": "tazas",
+            "amount": 1
+        },
+        {
+            "name": "Mango",
+            "type": 5,
+            "unit": "tazas",
+            "amount": 0.5
+        },
+        {
+            "name": "Mango",
+            "type": 5,
+            "unit": "unidades",
+            "amount": 1
+        },
+        {
+            "name": "Pasas o fruta seca o deshidratada",
+            "type": 5,
+            "unit": "cdas",
+            "amount": 2
+        },
+        {
+            "name": "Piña",
+            "type": 5,
+            "unit": "tazas",
+            "amount": 0.75
+        },
+        {
+            "name": "Sandia",
+            "type": 5,
+            "unit": "tazas",
+            "amount": 1.25
+        },
+        {
+            "name": "Manzana pequeña",
+            "type": 5,
+            "unit": "unidades",
+            "amount": 1
+        },
+        {
+            "name": "Naranja, nectarina, pera, mandarina mediana",
+            "type": 5,
+            "unit": "unidades",
+            "amount": 1
+        },
+        {
+            "name": "Uva pequeñas",
+            "type": 5,
+            "unit": "unidadeses",
+            "amount": 17
+        },
+        {
+            "name": "Uva pequeñas",
+            "type": 5,
+            "unit": "globo",
+            "amount": 10
+        },
+        {
+            "name": "Arandanos",
+            "type": 5,
+            "unit": "tazas",
+            "amount": 0.75
+        },
+        {
+            "name": "Guayaba pequeña",
+            "type": 5,
+            "unit": "unidades",
+            "amount": 1
+        },
+        {
+            "name": "Guayaba grande",
+            "type": 5,
+            "unit": "unidades",
+            "amount": 0.5
+        },
+        {
+            "name": "Granadilla",
+            "type": 5,
+            "unit": "unidades",
+            "amount": 2
+        },
+        {
+            "name": "Carambolas",
+            "type": 5,
+            "unit": "unidades",
+            "amount": 2
+        },
+        {
+            "name": "Guanabana",
+            "type": 5,
+            "unit": "Tz",
+            "amount": 0.5
+        },
+        {
+            "name": "Mora",
+            "type": 5,
+            "unit": "Tz",
+            "amount": 0.75
+        },
+        {
+            "name": "Nances",
+            "type": 5,
+            "unit": "unidades",
+            "amount": 20
+        },
+        {
+            "name": "Nispero",
+            "type": 5,
+            "unit": "unidades",
+            "amount": 18
+        },
+        {
+            "name": "Maracuya",
+            "type": 5,
+            "unit": "unidades",
+            "amount": 1
+        },
+        {
+            "name": "Anona",
+            "type": 5,
+            "unit": "unidades",
+            "amount": 0.25
+        },
+        {
+            "name": "Cas",
+            "type": 5,
+            "unit": "unidades",
+            "amount": 1
+        },
+        {
+            "name": "Higo fresco",
+            "type": 5,
+            "unit": "unidades",
+            "amount": 2
+        },
+        {
+            "name": "azúcar, miel o jalea",
+            "type": 6,
+            "unit": "cdita",
+            "amount": 1
+        },
+        {
+            "name": "gelatina regular con 3 cditas de azucar",
+            "type": 6,
+            "unit": "tz",
+            "amount": 0.5
+        },
+        {
+            "name": "carne de res sin grasa, ternero, pollo sin piel, pescado, atún en agua, sardina",
+            "type": 7,
+            "unit": "onzas",
+            "amount": 1
+        },
+        {
+            "name": "Queso blanco fresco",
+            "type": 2,
+            "unit": "tajada",
+            "amount": 1
+        },
+        {
+            "name": "Queso cottage",
+            "type": 7,
+            "unit": "tz",
+            "amount": 0.25
+        },
+        {
+            "name": "Mano de piedra",
+            "type": 7,
+            "unit": "rebanada",
+            "amount": 1
+        },
+        {
+            "name": "huevo",
+            "type": 2,
+            "unit": "unidades",
+            "amount": 1
+        },
+        {
+            "name": "Carne molida o atun",
+            "type": 7,
+            "unit": "cdas",
+            "amount": 2
+        },
+        {
+            "name": "Jamon de pechuga de pavo ligth",
+            "type": 2,
+            "unit": "rebanadas",
+            "amount": 2
+        },
+        {
+            "name": "frijoles, garbanzos, lentejas, frijoles blancos, cubaces, edamame, gandul, frijol de soya, arvejas",
+            "type": 9,
+            "unit": "tz",
+            "amount": 0.5
+        },
+        {
+            "name": "Mani",
+            "type": 0,
+            "unit": "semillas",
+            "amount": 10
+        },
+        {
+            "name": "Almendras",
+            "type": 0,
+            "unit": "semillas",
+            "amount": 6
+        },
+        {
+            "name": "aguacate pequeño",
+            "type": 0,
+            "unit": "",
+            "amount": 0.25
+        },
+        {
+            "name": "aceitunas negras",
+            "type": 0,
+            "unit": "",
+            "amount": 8
+        },
+        {
+            "name": "Chia",
+            "type": 0,
+            "unit": "cditas",
+            "amount": 2
+        },
+        {
+            "name": "Linaza molida",
+            "type": 0,
+            "unit": "cditas",
+            "amount": 1.5
+        },
+        {
+            "name": "Aceite de oliva",
+            "type": 0,
+            "unit": "cdita",
+            "amount": 1
+        },
+        {
+            "name": "mantequilla de mani",
+            "type": 0,
+            "unit": "cdita",
+            "amount": 1
+        },
+        {
+            "name": "macadamia",
+            "type": 0,
+            "unit": "unidades",
+            "amount": 3
+        },
+        {
+            "name": "Pistachos",
+            "type": 0,
+            "unit": "unidades",
+            "amount": 16
+        },
+        {
+            "name": "Linaza,Girasol o Ajonjoli",
+            "type": 0,
+            "unit": "cdas",
+            "amount": 1
+        },
+        {
+            "name": "Aceite Canola",
+            "type": 0,
+            "unit": "cdita",
+            "amount": 1
+        },
+        {
+            "name": "Leche liquida",
+            "type": 3,
+            "unit": "tz",
+            "amount": 1
+        },
+        {
+            "name": "Leche en polvo",
+            "type": 3,
+            "unit": "cdas",
+            "amount": 3
+        },
+        {
+            "name": "Leche evaporada",
+            "type": 3,
+            "unit": "tz",
+            "amount": 0.5
+        },
+        {
+            "name": "Yogurt sin azucar",
+            "type": 3,
+            "unit": "tz",
+            "amount": 0.66
+        },
+        {
+            "name": "Leche agria",
+            "type": 3,
+            "unit": "tz",
+            "amount": 1
+        },
+        {
+            "name": "Vegetales crudos (ensaladas)",
+            "type": 4,
+            "unit": "tz",
+            "amount": 1
+        },
+        {
+            "name": "Vegetales cocidos",
+            "type": 4,
+            "unit": "tz",
+            "amount": 0.5
+        },
+        {
+            "name": "pan",
+            "type": 8,
+            "unit": "tajada",
+            "amount": 1
+        },
+        {
+            "name": "baguete",
+            "type": 8,
+            "unit": "billete",
+            "amount": 0.5
+        },
+        {
+            "name": "tortillas",
+            "type": 8,
+            "unit": "unidades",
+            "amount": 2
+        },
+        {
+            "name": "Galleta soda o Maria",
+            "type": 8,
+            "unit": "paquete",
+            "amount": 1
+        },
+        {
+            "name": "Arroz",
+            "type": 8,
+            "unit": "tz",
+            "amount": 0.33
+        },
+        {
+            "name": "Gallo pinto",
+            "type": 8,
+            "unit": "tz",
+            "amount": 0.5
+        },
+        {
+            "name": "Yuca",
+            "type": 8,
+            "unit": "tz",
+            "amount": 0.33
+        },
+        {
+            "name": "Papa",
+            "type": 8,
+            "unit": "unidades",
+            "amount": 0.5
+        },
+        {
+            "name": "Camote o Tiquizque",
+            "type": 8,
+            "unit": "tz",
+            "amount": 0.5
+        },
+        {
+            "name": "Elote grande",
+            "type": 8,
+            "unit": "unidades",
+            "amount": 0.5
+        },
+        {
+            "name": "Cereales sin azucar",
+            "type": 8,
+            "unit": "tz",
+            "amount": 0.75
+        },
+        {
+            "name": "cereales con azucar",
+            "type": 8,
+            "unit": "tz",
+            "amount": 0.5
+        },
+        {
+            "name": "Panqueques 4 pulgadas ancho y 1/4 pulgadas grosor",
+            "type": 8,
+            "unit": "",
+            "amount": 1
+        },
+        {
+            "name": "Tortilla harina: 6 pulg. de ancho o 1/3 de tortilla grande de 10 pulgadas de ancho",
+            "type": 8,
+            "unit": "",
+            "amount": 1
+        },
+        {
+            "name": "pasta",
+            "type": 8,
+            "unit": "tz",
+            "amount": 0.33
+        },
+        {
+            "name": "Canelones",
+            "type": 8,
+            "unit": "unidades",
+            "amount": 2
+        },
+        {
+            "name": "Avena",
+            "type": 8,
+            "unit": "tz",
+            "amount": 0.25
+        },
+        {
+            "name": "Granola baja en grasa",
+            "type": 8,
+            "unit": "tz",
+            "amount": 0.25
+        },
+        {
+            "name": "Platano",
+            "type": 8,
+            "unit": "unidades",
+            "amount": 0.25
+        },
+        {
+            "name": "Palitos de ajonjoli",
+            "type": 8,
+            "unit": "unidades",
+            "amount": 3
+        },
+        {
+            "name": "Palomitas de maiz",
+            "type": 8,
+            "unit": "tz",
+            "amount": 3
+        },
+        {
+            "name": "Pejibaye mediano",
+            "type": 8,
+            "unit": "unidades",
+            "amount": 1
+        },
+        {
+            "name": "pan thins",
+            "type": 8,
+            "unit": "unidades",
+            "amount": 1
+        },
+        {
+            "name": "Arroz arreglado con cualquier carne",
+            "type": 8,
+            "unit": "tz",
+            "amount": 0.5
+        },
+        {
+            "name": "Quinoa",
+            "type": 8,
+            "unit": "tz",
+            "amount": 0.25
+        },
+        {
+            "name": "Pan para perro caliente o hamburguesa",
+            "type": 8,
+            "unit": "unidades",
+            "amount": 0.5
+        }
+    ]
+}

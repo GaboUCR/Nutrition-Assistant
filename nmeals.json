@@ -1,0 +1,136 @@
+{
+    "meals": [
+        {
+            "name": "Merienda 1",
+            "id":0,
+            "foods": [
+                {
+                    "type": 5,
+                    "quantity": 1,
+                    "id":0
+                },
+                {
+                    "type": 8,
+                    "quantity": 1,
+                    "id":1
+                },
+                {
+                    "type": 3,
+                    "quantity": 1,
+                    "id":2
+                },
+                {
+                    "type": 0,
+                    "quantity": 1,
+                    "id":3
+                }
+            ]
+        },
+        {
+            "name": "desayuno 11am",
+            "id":1,
+            "foods": [
+                {
+                    "type": 8,
+                    "quantity": 1
+                },
+                {
+                    "type": 8,
+                    "quantity": 1
+                },
+                {
+                    "type": 2,
+                    "quantity": 1
+                },
+                {
+                    "type": 2,
+                    "quantity": 1
+                },
+                {
+                    "type": 2,
+                    "quantity": 1
+                },
+                {
+                    "type": 0,
+                    "quantity": 1
+                },
+                {
+                    "type": 0,
+                    "quantity": 1
+                },
+                {
+                    "type": 9,
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "name": "merienda 2",
+            "id":2,
+            "foods": [
+                {
+                    "type": 3,
+                    "quantity": 1
+                },
+                {
+                    "type": 5,
+                    "quantity": 1
+                },
+                {
+                    "type": 8,
+                    "quantity": 1
+                },
+                {
+                    "type": 0,
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "name": "Cena 7pm",
+            "id":3,
+            "foods": [
+                {
+                    "type": 4,
+                    "quantity": 1
+                },
+                {
+                    "type": 4,
+                    "quantity": 1
+                },
+                {
+                    "type": 8,
+                    "quantity": 1
+                },
+                {
+                    "type": 7,
+                    "quantity": 1
+                },
+                {
+                    "type": 7,
+                    "quantity": 1
+                },
+                {
+                    "type": 7,
+                    "quantity": 1
+                },
+                {
+                    "type": 7,
+                    "quantity": 1
+                },
+                {
+                    "type": 0,
+                    "quantity": 1
+                },
+                {
+                    "type": 0,
+                    "quantity": 1
+                },
+                {
+                    "type": 5,
+                    "quantity": 1
+                }
+            ]
+        }
+    ]
+}

@@ -101,7 +101,6 @@ function SetLocalStorage (value) {
   if (not_in) {
     new_local_storage +=value+"."
   }
-  console.log(local_storage)
   localStorage.setItem('cache', new_local_storage)
   return true
 }

@@ -1,0 +1,11 @@
+
+    LoadMeals should run locally, to avoid needing the server. Consider modules. x
+    LoadEdibles should run locally, to avoid needing the server. Consider modules. x
+
+    Make the html compatible with Tachyon x
+    A folder, maybe data with the json files x
+
+
+8/14/2022
+
+    x Working prototype with a simple express server.

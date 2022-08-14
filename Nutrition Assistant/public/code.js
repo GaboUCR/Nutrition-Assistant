@@ -1,24 +1,26 @@
+import {meals, edibles} from "./assets/data.js"
 let T = {grasa:0, proteina:1, carnes_semi_magras:2, lacteo:3, vegetales:4, frutas:5, azucares:6, carnes_magras:7, almidones:8, leguminosas:9}
 
 function LoadInterface (meals, edibles) { 
   let list = document.getElementById("index");
   let local_storage = LoadLocalStorage()
-
   for (let i=0; i < meals.length; i++) {
     let meal_name = document.createElement("div") 
     meal_name.innerText = meals[i].name
     meal_name.classList.add("mv2", "tc", "f4")
     list.appendChild(meal_name)
-    
+
     for (let j=0; j < meals[i].foods.length; j++) {
-      let meal_id = meals[i].foods.id
+      let meal_id = meals[i].foods.id // @todo Clean up.
       let container = document.createElement("div")
       container.classList.add("flex")
+
       let toggle_foods = document.createElement("select")
       toggle_foods.addEventListener('change', (event) => {
         SetLocalStorage(event.target.value)
       })
       toggle_foods.classList.add("fl", "w-50", "pa-2")
+
       //this loops calculates the same thing a thousand times :(
       for (let k=0; k < edibles.length; k++) {
         
@@ -65,6 +67,7 @@ async function LoadEdibles () {
   return edibles
 }
 
+// @todo This need a better name.
 function is_first_element (element, local_storage) {
   for (let i=0; i<local_storage.length; i++) {
     if (local_storage[i] === element) {
@@ -116,11 +119,10 @@ function LoadLocalStorage () {
   }
 }
 
-
-async function LoadData () {
-  let meals = await LoadMeals()
-  let edibles = await LoadEdibles()
-  LoadInterface(meals, edibles)
+function LoadData () {
+  // let meals = await LoadMeals()
+  // let edibles = await LoadEdibles()
+  LoadInterface(meals.meals, edibles.edibles)
 }
 
 function get_food_str (food_type) {
@@ -170,6 +172,8 @@ function get_food_str (food_type) {
   }
 }
 
+//main
+LoadData()
 //meals = [{name: "meal1", foods: [food1, food2, ...]},{name:"meal2", foods:[food1, food2 ...]}, ...] 
 //where food = {type:str, quantity:float}  
 // let meals = [{name:"Merienda 1", foods: [{type:T.frutas, quantity: 1}, {type:T.almidones, quantity:1}, {type:T.lacteo, quantity:1}, {type:T.grasa, quantity:1}]}, {name:"desayuno 11am", foods: [{type:T.almidones, quantity:2}, {type:T.carnes_semi_magras, quantity:3}, {type:T.grasa, quantity:2}, {type:T.leguminosas, quantity:1}]}, {name:"merienda 2", foods:[{type:T.lacteo, quantity:1}, {type:T.frutas, quantity:1}, {type:T.almidones, quantity:1}, {type:T.grasa, quantity:1}]}];
